@@ -47,7 +47,7 @@ a {
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 870px;
   }
 }
 .container-narrow > hr {
@@ -69,9 +69,27 @@ a {
 
 /* Group logo */
 #logo {
-    width: 210px;
+    width: 290px;
     height: 50px;
-    margin: 2px 0 8px 0;
+    margin: 0px 0 8px 0;
+}
+
+.people-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 70%;
+  float: left;
+}
+
+.people-info {
+  display: block;
+  height: 150px;
+  /*margin-bottom: 100px;*/
+}
+
+.people-intro {
+  font-weight: normal;
+  /*margin-bottom: 100px;*/
 }
 
 /* Responsive: Portrait tablets and up */

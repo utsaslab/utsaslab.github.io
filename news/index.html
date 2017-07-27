@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Blogs
+title: News
 ---
 <ul class="news list-unstyled">
 {% for post in site.posts %}
-    {% if post.blog %}
+    {% if post.news %}
         {% if post.shortnews %}
             <li class="shortnews">
                 <span class="date">{{ post.date | date_to_long_string }}</span>

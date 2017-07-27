@@ -10,7 +10,7 @@ layout: nil
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>{{ site.url }}{{ site.base }}/</id>
 	<author>
-		<name>the Sampa group</name>
+		<name>Systems and Storage Research</name>
 	</author>
 	
 	{% for post in site.posts limit:20 %}

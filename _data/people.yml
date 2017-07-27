@@ -5,6 +5,7 @@ vijay:
     role: faculty
     bio: |
         Professor Vijay Chidambaram leads the System and Storage Research Group at UT Austin. 
+    img: /people/vijay.jpg
 
 pandian:
     display_name: Pandian Raju
