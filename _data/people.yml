@@ -1,0 +1,91 @@
+vijay:
+    display_name: "Prof. Vijay Chidambaram"
+    webpage: "http://www.cs.utexas.edu/~vijay/"
+    github: vijay03
+    role: faculty
+    bio: Head of the System and Storage Research Lab.
+    img: /people/vijay.jpg
+
+pandian:
+    display_name: Pandian Raju
+    webpage: https://www.linkedin.com/in/pandianraju
+    github: pandian4github
+    role: grad
+
+jayashree:
+    display_name: Jayashree Mohan
+    webpage: https://www.cs.utexas.edu/~jaya/
+    github:
+    role: grad
+
+dhathri:
+    display_name: Dhathri Purohith
+    webpage: https://www.cs.utexas.edu/~dhathri
+    github:
+    role: grad
+
+yige:
+    display_name: Yige Hu
+    webpage: https://www.cs.utexas.edu/~yige/
+    github: 
+    role: grad
+
+soujanya:
+    display_name: Soujanya Ponnapalli
+    webpage: 
+    github: 
+    role: incoming
+
+rohan:
+    display_name:  Rohan Kadekodi
+    webpage: 
+    github: 
+    role: incoming
+
+ashlie:
+    display_name: Ashlie Martinez
+    webpage: 
+    github: 
+    role: undergrad
+
+chris:
+    display_name: Chris Sun
+    webpage: 
+    github: 
+    role: undergrad
+
+bhavin:
+    display_name: Bhavin Gupta
+    webpage: 
+    github: 
+    role: undergrad
+
+tom:
+    display_name: Tom Gong
+    webpage: https://lockijazz.github.io/
+    github: lockijazz
+    role: undergrad
+    img: /people/tom.jpg
+    bio: BS CS 2020
+
+
+subrat:
+    display_name: Subrat Mainali
+    webpage: http://www.cs.utexas.edu/~sm63966/
+    github: gk159yo
+    role: undergrad
+    img: /people/subrat.jpg
+    bio: BS CS 2020
+
+carolyn:
+    display_name: Carolyn Tran
+    webpage: 
+    github: 
+    role: undergrad
+
+
+eric:
+    display_name: Eric Lee
+    webpage: 
+    github: 
+    role: undergrad

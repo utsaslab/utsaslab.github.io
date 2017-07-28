@@ -1,0 +1,34 @@
+---
+layout: default
+title: People
+---
+
+{% for role in site.roles %}
+  <h3>{{ role.name }}</h3>
+  <dl class="people">
+  {% for item in site.data.people %}
+      {% assign person = item[1] %}
+      {% if person.role == role.key %}
+        <div class="people-info">
+          {% if person.img %}
+            <img class="people-img" src={{ person.img }}/>
+          {% endif %}
+          <dt class="person person-intro">
+            {% if person.webpage %}
+            <a href="{{ person.webpage |escape }}">
+            {% endif %}
+              {{ person.display_name }}
+            {% if person.webpage %}
+            </a>
+            {% endif %}
+          </dt>
+          <dd class="person-bio">
+            {% if person.bio %}
+              {{ person.bio | markdownify }}
+            {% endif %}
+          </dd>
+      </div>
+      {% endif %}
+  {% endfor %}
+  </dl>
+{% endfor %}
