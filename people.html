@@ -10,23 +10,23 @@ title: People
       {% assign person = item[1] %}
       {% if person.role == role.key %}
         <div class="people-info">
-        {% if person.img %}
-          <img class="people-img" src={{ person.img }}/>
-        {% endif %}
-        <dt class="person person-intro">
-          {% if person.webpage %}
-          <a href="{{ person.webpage |escape }}">
+          {% if person.img %}
+            <img class="people-img" src={{ person.img }}/>
           {% endif %}
-            {{ person.display_name }}
-          {% if person.webpage %}
-          </a>
-          {% endif %}
-        </dt>
-        <dd class="person-bio">
-          {% if person.bio %}
-            {{ person.bio | markdownify }}
-          {% endif %}
-        </dd>
+          <dt class="person person-intro">
+            {% if person.webpage %}
+            <a href="{{ person.webpage |escape }}">
+            {% endif %}
+              {{ person.display_name }}
+            {% if person.webpage %}
+            </a>
+            {% endif %}
+          </dt>
+          <dd class="person-bio">
+            {% if person.bio %}
+              {{ person.bio | markdownify }}
+            {% endif %}
+          </dd>
       </div>
       {% endif %}
   {% endfor %}

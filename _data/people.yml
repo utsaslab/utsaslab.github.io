@@ -3,8 +3,7 @@ vijay:
     webpage: "http://www.cs.utexas.edu/~vijay/"
     github: vijay03
     role: faculty
-    bio: |
-        Professor Vijay Chidambaram leads the System and Storage Research Group at UT Austin. 
+    bio: Head of the System and Storage Research Lab.
     img: /people/vijay.jpg
 
 pandian:
@@ -63,17 +62,20 @@ bhavin:
 
 tom:
     display_name: Tom Gong
-    webpage: 
+    webpage: https://lockijazz.github.io/
     github: lockijazz
     role: undergrad
+    img: /people/tom.jpg
+    bio: BS CS 2020
 
 
 subrat:
     display_name: Subrat Mainali
-    webpage: 
+    webpage: http://www.cs.utexas.edu/~sm63966/
     github: gk159yo
     role: undergrad
-
+    img: /people/subrat.jpg
+    bio: BS CS 2020
 
 carolyn:
     display_name: Carolyn Tran

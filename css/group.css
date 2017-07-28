@@ -69,7 +69,7 @@ a {
 
 /* Group logo */
 #logo {
-    width: 290px;
+    width: 250px;
     height: 50px;
     margin: 0px 0 8px 0;
 }
@@ -81,15 +81,21 @@ a {
   float: left;
 }
 
+.people {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .people-info {
-  display: block;
-  height: 150px;
-  /*margin-bottom: 100px;*/
+  height: 160px;
+  width: 260px;
+  order: 1;
+  flex-grow: 1;
 }
 
 .people-intro {
   font-weight: normal;
-  /*margin-bottom: 100px;*/
 }
 
 /* Responsive: Portrait tablets and up */
