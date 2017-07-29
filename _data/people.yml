@@ -11,24 +11,28 @@ pandian:
     webpage: https://www.linkedin.com/in/pandianraju
     github: pandian4github
     role: grad
+    img: /people/pandian.jpg
 
 jayashree:
     display_name: Jayashree Mohan
     webpage: https://www.cs.utexas.edu/~jaya/
     github:
     role: grad
+    img: /people/jaya.jpg
 
 dhathri:
     display_name: Dhathri Purohith
     webpage: https://www.cs.utexas.edu/~dhathri
     github:
     role: grad
+    img: /people/dhathri.jpg
 
 yige:
     display_name: Yige Hu
     webpage: https://www.cs.utexas.edu/~yige/
     github: 
     role: grad
+    img: /people/yige.png
 
 soujanya:
     display_name: Soujanya Ponnapalli
