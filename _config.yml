@@ -44,4 +44,4 @@ navigation:
       link: /news/
 
 collections:
-  - news
+  - news_posts
