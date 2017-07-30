@@ -26,7 +26,7 @@ supporting our lab.
 	<h5 class="text-info">Recent News:</h5>
 	{% include recent_news.html %}
 </div>
-<br>    
+
 This website is maintained by [Vijay
 Chidambaram](http://www.cs.utexas.edu/~vijay/) and [Subrat
 Mainali](http://www.cs.utexas.edu/~sm63966/).
