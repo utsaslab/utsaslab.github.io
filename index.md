@@ -18,16 +18,15 @@ have](https://utsaslab.github.io/people.html) three PhD students, one
 Masters student, and seven undergraduate students working with the
 lab.
 
+We thank [Facebook](https://research.fb.com/programs/) and
+[VMware](https://labs.vmware.com/academic/academic-software) for
+supporting our lab.
 
 <div id='top-news-home'>
 	<h5 class="text-info">Recent News:</h5>
 	{% include recent_news.html %}
 </div>
-
-We thank [Facebook](https://research.fb.com/programs/) and
-[VMware](https://labs.vmware.com/academic/academic-software) for
-supporting our lab.
-    
+<br>    
 This website is maintained by [Vijay
 Chidambaram](http://www.cs.utexas.edu/~vijay/) and [Subrat
 Mainali](http://www.cs.utexas.edu/~sm63966/).
