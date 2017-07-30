@@ -88,8 +88,8 @@ a {
 }
 
 .people-info {
-  height: 160px;
-  width: 260px;
+  height: 220px;
+  width: 160px;
   order: 1;
   flex-grow: 1;
 }

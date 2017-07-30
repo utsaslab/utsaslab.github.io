@@ -1,8 +1,6 @@
 ---
 layout: post
 shortnews: false
-blog: true
-news: false
 onlyarchive: false
 ---
 Hello, world!

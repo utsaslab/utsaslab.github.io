@@ -3,8 +3,20 @@ layout: default
 title: News
 ---
 <ul class="news list-unstyled">
-{% for post in site.posts %}
-    {% if post.onlyarchive == false %}
+    {% assign list = site.news_posts | reverse %}
+    {% for info in list %}
+            {% if info.onlyarchive == false %}
+                 <li class="shortnews">
+                    <span class="date"> {{info.title}} </span>
+                      {{info.content}}
+                </li>
+            {% endif %}
+    {% endfor %}
+</ul>
+
+
+<!-- {% for post in site.posts %} -->
+<!--     {% if post.onlyarchive == false %}
         {% if post.news %}
             {% if post.shortnews %}
                 <li class="shortnews">
@@ -19,7 +31,6 @@ title: News
             {% endif %}
         {% endif %}
     {% endif %}
-{% endfor %}
-</ul>
+{% endfor %} -->
 
 <p><a href="{{ site.base }}/oldnews.html">See archived news posts.</a></p>

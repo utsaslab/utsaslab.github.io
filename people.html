@@ -10,9 +10,6 @@ title: People
       {% assign person = item[1] %}
       {% if person.role == role.key %}
         <div class="people-info">
-          {% if person.img %}
-          <img class="people-img" src={{ person.img }}></img>
-          {% endif %}
           <dt class="person person-intro">
             {% if person.webpage %}
             <a href="{{ person.webpage |escape }}">
@@ -27,6 +24,11 @@ title: People
               {{ person.bio | markdownify }}
             {% endif %}
           </dd>
+          <p>
+            {% if person.img %}
+            <img class="people-img" src={{ person.img }}></img>
+            {% endif %}
+          </p>
       </div>
       {% endif %}
   {% endfor %}
