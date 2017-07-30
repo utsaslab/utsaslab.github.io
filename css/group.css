@@ -87,6 +87,11 @@ a {
   flex-wrap: wrap;
 }
 
+#top-news-home {
+  padding: 1px;
+  background-color: #dee2e8;
+}
+
 .people-info {
   height: 220px;
   width: 160px;
@@ -94,7 +99,9 @@ a {
   flex-grow: 1;
 }
 
-.people-intro {
+.person {
+  width: 160px;
+  text-align: center;
   font-weight: normal;
 }
 

@@ -18,6 +18,12 @@ have](https://utsaslab.github.io/people.html) three PhD students, one
 Masters student, and seven undergraduate students working with the
 lab.
 
+
+<div id='top-news-home'>
+	<h5 class="text-info">Recent News:</h5>
+	{% include recent_news.html %}
+</div>
+
 We thank [Facebook](https://research.fb.com/programs/) and
 [VMware](https://labs.vmware.com/academic/academic-software) for
 supporting our lab.
