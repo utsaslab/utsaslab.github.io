@@ -10,7 +10,7 @@ title: People
       {% assign person = item[1] %}
       {% if person.role == role.key %}
         <div class="people-info">
-          <dt class="person person-intro">
+          <dt class="person">
             {% if person.webpage %}
             <a href="{{ person.webpage |escape }}">
             {% endif %}

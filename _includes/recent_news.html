@@ -1,0 +1,11 @@
+<ul class="news list-unstyled">
+    {% assign list = site.news_posts | reverse %}
+    {% for info in list limit:3%}
+            {% if info.onlyarchive == false %}
+                 <li class="shortnews">
+                    <span class="date"> {{info.title}} </span>
+                      {{info.content}}
+                </li>
+            {% endif %}
+    {% endfor %}
+</ul>
