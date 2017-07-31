@@ -7,9 +7,9 @@ projects:
     summary: This will never work.
 ---
 
-Our research is awesome.
+You can find our research projects below:
 
-### An Exciting project
-Read about it [here][project].
+### AutoOsync
+AutoOsync is a tool that automates the conversion of persistence libraries (like TokyoCabinet and PostgreSQL) to the [Optimistic File System](https://github.com/utsaslab/optfs). You can read more about it and get the source code [here](https://github.com/utsaslab/script_optfs).
 
 [project]: project/index.html
