@@ -82,10 +82,10 @@ subrat:
 
 carolyn:
     display_name: Carolyn Tran
-    webpage: 
-    github: 
+    webpage: http://carolynqt.com
+    github: scarolyn
     role: undergrad
-
+    img: /people/carolyn.jpg
 
 eric:
     display_name: Eric Lee
