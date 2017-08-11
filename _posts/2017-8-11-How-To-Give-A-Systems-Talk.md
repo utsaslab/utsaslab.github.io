@@ -6,10 +6,11 @@ onlyarchive: false
     
 [Vijay Chidambaram](http://www.cs.utexas.edu/~vijay/): Jotting down
 the advice I give to my students about presenting at a systems
-conference. Most of this is advice I got from Remzi and Andrea when I
-went to grad school at Madison. These aren't hard and fast rules, and
-the more experience you have, the more you will know when you can
-break them.
+conference. Most of this is advice I got from
+[Remzi](http://pages.cs.wisc.edu/~remzi/) and
+[Andrea](http://pages.cs.wisc.edu/~dusseau/) when I went to grad
+school at Madison. These aren't hard and fast rules, and the more
+experience you have, the more you will know when you can break them.
 
 Caveat: everybody has different notions of what a good systems talk
 should look like. These are merely my own preferences. 
@@ -21,7 +22,7 @@ should look like. These are merely my own preferences.
    You don't need to present every detail from the paper. You need to
    get the audience interested enough to go look at your paper.
 
-    In a similar vein, dont’ show every graph from the paper.  Show
+    In a similar vein, don't show every graph from the paper.  Show
     the most interesting graphs, and point at the paper for the rest.
     
 2. **Remember your audience hasn't been thinking about this for as long as you have.**
