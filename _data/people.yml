@@ -50,9 +50,10 @@ rohan:
 
 ashlie:
     display_name: Ashlie Martinez
-    webpage: 
-    github: 
+    webpage: https://github.com/ashmrtn
+    github: ashmrtn
     role: undergrad
+    img: /people/ashlie.jog
 
 chris:
     display_name: Chris Sun
