@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Systems and Storage Research Lab: How To Give A Systems Talk</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/group.css" rel="stylesheet">
+        <link rel="alternate" type="application/atom+xml" title="Atom"
+              href="/blog/blog.xml">
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+          Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-20520573-3', 'auto');
+          ga('send', 'pageview');
+          </script>
+    </head>
+    <body>
+        <div class="container">
+          <div class="header">
+            <ul class="nav nav-pills pull-right">
+              
+              
+                <li >
+                  <a href="/">
+                    Home
+                  </a>
+                </li>
+              
+                <li >
+                  <a href="/people.html">
+                    People
+                  </a>
+                </li>
+              
+                <li >
+                  <a href="/research/">
+                    Research
+                  </a>
+                </li>
+              
+                <li >
+                  <a href="/publications.html">
+                    Publications
+                  </a>
+                </li>
+              
+                <li >
+                  <a href="/code.html">
+                    Code
+                  </a>
+                </li>
+              
+                <li >
+                  <a href="/blog/">
+                    Blog
+                  </a>
+                </li>
+              
+                <li >
+                  <a href="/news/">
+                    News
+                  </a>
+                </li>
+              
+            </ul>
+            <a href="/">
+                <img src="/img/logo.png"
+                    srcset="/img/logo@2x.png 2x"
+                    alt="Awesome" id="logo">
+            </a>
+          </div>
+
+          
+          <h2>How To Give A Systems Talk</h2>
+          
+
+          <p class="meta">11 Aug 2017</p>
+
+<div class="post">
+<p><a href="http://www.cs.utexas.edu/~vijay/">Vijay Chidambaram</a>: Jotting down
+the advice I give to my students about presenting at a systems
+conference. Most of this is advice I got from
+<a href="http://pages.cs.wisc.edu/~remzi/">Remzi</a> and
+<a href="http://pages.cs.wisc.edu/~dusseau/">Andrea</a> when I went to grad
+school at Madison. These aren’t hard and fast rules, and the more
+experience you have, the more you will know when you can break them.</p>
+
+<p>Caveat: everybody has different notions of what a good systems talk
+should look like. These are merely my own preferences.</p>
+
+<h3 id="content">Content</h3>
+
+<ol>
+  <li>
+    <p><strong>The aim of the talk is to get the big idea from the paper across.</strong></p>
+
+    <p>You don’t need to present every detail from the paper. You need to
+get the audience interested enough to go look at your paper.</p>
+
+    <p>In a similar vein, don’t show every graph from the paper.  Show
+ the most interesting graphs, and point at the paper for the rest.</p>
+  </li>
+  <li>
+    <p><strong>Remember your audience hasn’t been thinking about this for as long as you have.</strong></p>
+
+    <p>Build up material as you go, introduce definitions and terms.</p>
+  </li>
+  <li>
+    <p><strong>Build up your slide</strong></p>
+
+    <p>Don’t throw a whole out of text and pictures at the audience at
+ once. They will get lost. Instead, put <strong>only</strong> what you are
+ currently talking about on the screen.</p>
+
+    <p>A good example of this is showing a graph to the audience. First
+ show the axes, explain what they are. If you have multiple bars,
+ introduce them one by one, comment about performance.</p>
+  </li>
+  <li>
+    <p><strong>Whenever possible, use pictures and animation.</strong></p>
+
+    <p>It is possible to go overboard on animation, but in general most
+ talks don’t have enough of it. Making animations is a lot of work,
+ but your audience will be more engaged.</p>
+  </li>
+  <li>
+    <p><strong>Avoid walls of text</strong></p>
+
+    <p>Each slide should have a major point it is trying to make. Don’t
+ have more than 3 sub-bullets.</p>
+  </li>
+  <li>
+    <p><strong>Have a takeaway slide</strong></p>
+
+    <p>I’m a big fan of a slide in the talk which asks a big question
+ that your work solves, and in a line gives the intuition for your
+ solution. This is the takeaway slide. See Slide 5 and 6 in my <a href="http://research.cs.wisc.edu/adsl/Publications/optfs-sosp13-slides.pdf">OptFS talk</a></p>
+  </li>
+  <li>
+    <p><strong>Pause between major sections of your talk, and at the end of each slide</strong></p>
+  </li>
+  <li>
+    <p><strong>Repeat important intuition/insights at multiple points in the talk.</strong></p>
+
+    <p>Your audience will zone out occassionally. You still want them to
+be able to get the main idea of the paper.</p>
+  </li>
+</ol>
+
+<h3 id="organization">Organization</h3>
+
+<p>I like talks organized like this:</p>
+<ol>
+  <li>Introduction to the Problem, what your solution is (5 min)</li>
+  <li>Outline slide, what is the rest of the talk</li>
+  <li>The Problem</li>
+  <li>Our Solution</li>
+  <li>How it Performs</li>
+  <li>Summary (give intuition again)</li>
+  <li>A thought-provoking conclusion</li>
+</ol>
+
+<h3 id="formatting">Formatting</h3>
+
+<ol>
+  <li>
+    <p>I’m partial to a color scheme where the title slide, the outline
+slide, and the slide with major points have a black background. The
+other slides have a white background and black text. See <a href="http://www.cs.utexas.edu/~vijay/papers/hotstorage17-crashmonkey-slides.pdf">recent
+talks</a>
+from our group for an example of this.</p>
+  </li>
+  <li>
+    <p>Don’t use font smaller than 24 pt on your slides.</p>
+  </li>
+  <li>
+    <p>Your talk should have a small color palette (apart from
+animation). A background color, a text color, a color for emphasis. I
+like to use white slides, black text, red for emphasis.</p>
+  </li>
+</ol>
+
+<h3 id="length">Length</h3>
+
+<p>For a 25 minute slot, your talk should be around 23-24 minutes. If
+questions are included in the slot, your talk should be 20-21
+minutes. Nobody likes a talk that goes over the time limit.</p>
+
+<h3 id="practice-and-iteration">Practice and Iteration</h3>
+
+<ol>
+  <li>
+    <p>Your first version of the talk will be bad. This is the case for
+everyone. Give multiple practice talks and keep improving the talk.</p>
+  </li>
+  <li>
+    <p>A good rule of thumb is to have revised the talk at least twice,
+and practised at least three times before giving the talk.</p>
+  </li>
+  <li>
+    <p>Memorize the first few slides so that you can work through them
+without mental effort.</p>
+  </li>
+</ol>
+
+<h3 id="tools">Tools</h3>
+
+<p>Invest in getting Keynote. It is definitely worth it.</p>
+
+</div>
+
+
+          <div class="footer">
+            <p>
+              <a href="https://www.cs.utexas.edu/">Department of Computer Science</a>
+              at the
+              <a href="https://www.utexas.edu/">University of
+                Texas at Austin</a>
+            </p>
+          </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+            src="/js/srcset-polyfill.js"></script>
+    </body>
+</html>
