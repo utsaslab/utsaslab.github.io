@@ -27,30 +27,26 @@ dhathri:
     role: grad
     img: /people/dhathri.jpg
 
-yige:
-    display_name: Yige Hu
-    webpage: https://www.cs.utexas.edu/~yige/
-    github: 
-    role: grad
-    img: /people/yige.png
-
 soujanya:
     display_name: Soujanya Ponnapalli
-    webpage: 
+    webpage: https://www.linkedin.com/in/soujanya-ponnapalli-553275107/
     github: 
-    role: incoming
+    role: grad
+    img: /people/soujanya.jpg
 
 rohan:
     display_name:  Rohan Kadekodi
-    webpage: 
+    webpage: https://www.linkedin.com/in/rohan-kadekodi-775b4a124/
     github: 
-    role: incoming
+    role: grad
+    img: /people/rohan.jpg
 
 ashlie:
     display_name: Ashlie Martinez
-    webpage: 
-    github: 
+    webpage: https://github.com/ashmrtn
+    github: ashmrtn
     role: undergrad
+    img: /people/ashlie.jpg
 
 chris:
     display_name: Chris Sun
@@ -80,13 +76,14 @@ subrat:
 
 carolyn:
     display_name: Carolyn Tran
-    webpage: 
-    github: 
+    webpage: http://carolynqt.com
+    github: scarolyn
     role: undergrad
-
+    img: /people/carolyn.jpg
 
 eric:
     display_name: Eric Lee
-    webpage: 
+    webpage: http://ericlee123.github.io/
     github: 
     role: undergrad
+    img: /people/ericlee.jpg
