@@ -177,6 +177,10 @@ ul.news .bloglink a {
   text-align:center;
 }*/
 
+.abstract-text {
+  text-align: left;
+}
+
 .span-texty .abstract-text {
   display: none;
 }
