@@ -177,11 +177,11 @@ ul.news .bloglink a {
   text-align:center;
 }*/
 
-.span-texty span {
+.span-texty .abstract-text {
   display: none;
 }
 
-.span-texty:hover span {
+.span-texty:hover .abstract-text {
   display:block;
 /*  position:absolute;
   top:-60px;*/

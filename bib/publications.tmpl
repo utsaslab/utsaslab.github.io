@@ -12,7 +12,7 @@
 				{{ entry.fields['month']|monthname }}
 			</span>
 		</td>
-		<td class="publication">
+		<td class="publication span-texty">
 			<span class="pubtitle">
 				{%- set url = entry|main_url %}
 				{%- if url %}
@@ -42,9 +42,8 @@
 				{%- endif %} -->
 			</span>
 			{%- if entry.fields['abstract'] %}
-			<div id="abstract_{{entry.fields['key']}}" class="abstract pell span-texty">
-				Abstract
-				<span>
+			<div id="abstract_{{entry.fields['key']}}" class="abstract">
+				<span class="abstract-text">
 					{{ entry.fields['abstract'] |escape }}
 				</span>
 			</div>
