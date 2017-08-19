@@ -11,6 +11,22 @@ body {
   padding-right: 15px;
 }
 
+.talk {
+  display: inline;
+}
+
+.code {
+  display: inline;
+}
+
+.slides {
+  display: inline;
+}
+
+.bib {
+  display: inline;
+}
+
 .nav-pills
 li.active
 a, .nav-pills

@@ -101,7 +101,7 @@
 				<a href="https://www.sigops.org/sosp/sosp17/index.html">PebblesDB: Simultaneously Increasing Write Throughput and Decreasing Write Amplification in Key-Value Stores</a>.
 			</span><br />
 			<span class="authors">
-				Vijay Chidambaram, Pandian Raju and Ittai Abraham.
+				Pandian Raju, Rohan Kadekodi, Vijay Chidambaram, and Ittai Abraham.
 			</span><br />
 			<span class="venuetype"></span><span class="venue">The 26th ACM Symposium on Operating Systems Principles (SOSP 2017)</span>.
 			<br />
@@ -109,6 +109,10 @@
 <!--
 				[<a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="$('#abstract_PebblesDB-17').slideToggle('fast');return false;">abstract</a>] -->
 			</span>
+
+			<br>
+
+			<br>
 			<div id="abstract_PebblesDB-17" class="abstract">
 				<span class="abstract-text">
 					Key-value stores such as LevelDB and RocksDB offer excellent write throughput, but suffer high write amplification: 1 GB written to RocksDB results in 28 GB written to storage. The write amplification problem is fundamental to the Log-Structured Merge Trees data structure that underlies these key-value stores. To remedy this, we present a novel data structure that is inspired by Skip Lists, termed Fragmented Log-Structured Merge Trees (FLSM). FLSM introduces the notion of guards to organize logs, and avoids rewriting data in the same level. We build PebblesDB, a high performance key-value store, on top of the FLSM data structure. We evaluate PebblesDB with different benchmarks and show that compared to LevelDB and RocksDB, it decreases write am- plification by 3-5X while increasing write throughput by 2.7X and provides equal or better throughput for other operations such as reads and range queries. We modify two widely-used NoSQL stores, MongoDB and HyperDex, to use PebblesDB as their underlying storage engine, and show that the application throughput is increased by 18-105% (compared to their default storage engines) while write IO is decreased by 35-55%.
@@ -139,6 +143,15 @@
 			<span class="links">
 <!-- -->
 			</span>
+			<div id="bib_purohith17sqlite" class="bib">
+					[<a href=http://www.cs.utexas.edu/~vijay/bibtex/apsys17-sqlite.bib> 
+						Bib
+					</a>]
+			</div>
+
+			<br>
+
+			<br>
 		</td>
 	</tr>
 	<tr>
@@ -157,13 +170,27 @@
 				<a href="http://www.cs.utexas.edu/~vijay/papers/apsys17-ioamp.pdf">Analyzing IO Amplification in Linux File Systems (Poster)</a>.
 			</span><br />
 			<span class="authors">
-				Vijay Chidambaram Jayashree Mohan.
+				Jayashree Mohan, Rohan Kadekodi, and Vijay Chidambaram.
 			</span><br />
 			<span class="venuetype"></span><span class="venue">The 8th ACM SIGOPS Asia-Pacific Workshop on Systems (APSys 2017)</span>.
 			<br />
 			<span class="links">
 <!-- -->
 			</span>
+			<div id="bib_jayashreelinuxFS" class="bib">
+					[<a href=http://www.cs.utexas.edu/~vijay/papers/apsys17-ioamp.pdf> 
+						Poster
+					</a>]
+			</div>
+			<div id="bib_jayashreelinuxFS" class="bib">
+					[<a href=https://arxiv.org/pdf/1707.08514.pdf> 
+						ArXiV Preprint
+					</a>]
+			</div>
+
+			<br>
+
+			<br>
 		</td>
 	</tr>
 	<tr>
@@ -189,6 +216,20 @@
 			<span class="links">
 <!-- -->
 			</span>
+			<div id="slides_gonzalez17cclog" class="slides">
+					[<a href=http://www.cs.utexas.edu/~vijay/papers/hotstorage17-cclog-slides.pdf> 
+						Slides
+					</a>]
+			</div>
+			<div id="bib_gonzalez17cclog" class="bib">
+					[<a href=http://www.cs.utexas.edu/~vijay/bibtex/hotstorage17-cclog.bib> 
+						Bib
+					</a>]
+			</div>
+
+			<br>
+
+			<br>
 		</td>
 	</tr>
 	<tr>
@@ -214,6 +255,20 @@
 			<span class="links">
 <!-- -->
 			</span>
+			<div id="slides_mohan17energy" class="slides">
+					[<a href=http://www.cs.utexas.edu/~vijay/papers/hotstorage17-energy-slides.pdf> 
+						Slides
+					</a>]
+			</div>
+			<div id="bib_mohan17energy" class="bib">
+					[<a href=http://www.cs.utexas.edu/~vijay/bibtex/hotstorage17-energy.bib> 
+						Bib
+					</a>]
+			</div>
+
+			<br>
+
+			<br>
 		</td>
 	</tr>
 	<tr>
@@ -239,6 +294,20 @@
 			<span class="links">
 <!-- -->
 			</span>
+			<div id="code_martinez17crashmonkey" class="code">
+					[<a href=https://github.com/utsaslab/crashmonkey> 
+						Code
+					</a>]
+			</div>
+			<div id="slides_martinez17crashmonkey" class="slides">
+					[<a href=http://www.cs.utexas.edu/~vijay/papers/hotstorage17-crashmonkey-slides.pdf> 
+						Slides
+					</a>]
+			</div>
+
+			<br>
+
+			<br>
 		</td>
 	</tr>
 	<tr>
@@ -264,6 +333,15 @@
 			<span class="links">
 <!-- -->
 			</span>
+			<div id="bib_HuEtAl17-T2FS" class="bib">
+					[<a href=http://www.cs.utexas.edu/~vijay/bibtex/hotos17-t2fs.bib> 
+						Bib
+					</a>]
+			</div>
+
+			<br>
+
+			<br>
 		</td>
 	</tr>
 	<tr>
@@ -289,6 +367,28 @@
 			<span class="links">
 <!-- -->
 			</span>
+			<div id="slides_PillaiEtAl17-CCFS" class="slides">
+					[<a href=http://www.cs.utexas.edu/~vijay/papers/ccfs-fast17-slides.pdf> 
+						Slides
+					</a>]
+			</div>
+			<div id="bib_PillaiEtAl17-CCFS" class="bib">
+					[<a href=http://www.cs.utexas.edu/~vijay/bibtex/PillaiEtAl17-CCFS.bib> 
+						Bib
+					</a>]
+			</div>
+
+			<br>
+			<div id="bib_PillaiEtAl17-CCFS" class="bib text-danger">
+				<b>Best Paper Award</b>
+			</div>
+
+			<br>
+			<div id="bib_PillaiEtAl17-CCFS" class="bib">
+					<b>Press:</b>[<a href=https://blog.acolyer.org/2017/03/15/application-crash-consistency-and-performance-with-ccfs/> 
+						Morning Paper
+					</a>]
+			</div>
 		</td>
 	</tr>
 	<tr>
@@ -314,6 +414,20 @@
 			<span class="links">
 <!-- -->
 			</span>
+			<div id="slides_chauhan16nvmove" class="slides">
+					[<a href=http://www.cs.utexas.edu/~vijay/papers/inflow16-nvmove-slides.pdf> 
+						Slides
+					</a>]
+			</div>
+			<div id="bib_chauhan16nvmove" class="bib">
+					[<a href=http://www.cs.utexas.edu/~vijay/bibtex/inflow16-nvmove.bib> 
+						Bib
+					</a>]
+			</div>
+
+			<br>
+
+			<br>
 		</td>
 	</tr>
 </tbody>

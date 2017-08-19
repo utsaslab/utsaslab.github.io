@@ -6,6 +6,7 @@ title: People
 {% for role in site.roles %}
   <h3>{{ role.name }}</h3>
   <dl class="people">
+   <br>
   {% for item in site.data.people %}
       {% assign person = item[1] %}
       {% if person.role == role.key %}
