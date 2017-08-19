@@ -179,6 +179,7 @@ ul.news .bloglink a {
 
 .abstract-text {
   text-align: left;
+  float: left;
 }
 
 .span-texty .abstract-text {
@@ -192,7 +193,7 @@ ul.news .bloglink a {
   width:100%;
   border:1px solid #BF5700;
   /*background-color:#cff;*/ color:#000;
-  text-align: center;
+  text-align: left;
   padding:10px;
 }
 
