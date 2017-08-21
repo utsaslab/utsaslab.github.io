@@ -4,6 +4,7 @@ import jinja2
 import jinja2.sandbox
 import re
 from calendar import month_name
+import json
 
 _months = {
     'jan': 1, 'feb': 2, 'mar': 3, 'apr': 4, 'may': 5, 'jun': 6,
@@ -22,7 +23,33 @@ def _andlist(ss, sep=', ', seplast=', and ', septwo=' and '):
         return sep.join(ss[:-1]) + seplast + ss[-1]
 
 def _author_list(authors):
-    return _andlist(map(_author_fmt, authors))
+
+    # load the file with links
+    str_ = json.load(open("bib/links.info", "r"))
+
+    # generate the list of authors
+    list_ = map(_author_fmt, authors)
+
+    # the modified list
+    list__ = []
+    for val in list_:
+
+        # the string we're going to display,
+        # with a link if present in the json file
+        str__ = ""
+        if val in str_.keys():
+            str__ += "<a href=\"" + str_[val] + "\">"
+        str__ += val
+        if val in str_.keys():
+            str__ += "</a>"
+
+        list__.append(str__)
+
+        # a comma
+        list__.append("|")
+
+    # get rid of the last comma
+    return list__[0:-1]
 
 def _venue_type(entry):
     venuetype = ''

@@ -24,7 +24,9 @@
 				{%- endif %}
 			</span><br />
 			<span class="authors">
-				{{ entry.persons['author']|author_list }}.
+				{% for person in entry.persons['author']|author_list %}
+					{{person}}
+				{% endfor %}
 			</span><br />
 			<span class="venuetype">{{ entry|venue_type -}}</span><span class="venue">{{ entry|venue -}}</span>.
 			{%- if entry.fields['note'] %}
