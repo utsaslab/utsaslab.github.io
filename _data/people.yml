@@ -1,3 +1,6 @@
+# important, if you change the webpage, or insert an entry here,
+# make sure to add an entry in bib/links.info as well
+
 vijay:
     display_name: "Prof. Vijay Chidambaram"
     webpage: "http://www.cs.utexas.edu/~vijay/"

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	
 	<title type="text" xml:lang="en">Systems and Storage Research Lab</title>
-    <link type="application/atom+xml" href="http://localhost:4000/blog/blog.xml" rel="self"/>
-    <link href="http://localhost:4000/"/>
-	<updated>2017-08-21T12:55:56-05:00</updated>
-    <id>http://localhost:4000/</id>
+    <link type="application/atom+xml" href="http://cs.utexas.edu/blog/blog.xml" rel="self"/>
+    <link href="http://cs.utexas.edu/"/>
+	<updated>2017-08-21T18:21:06-05:00</updated>
+    <id>http://cs.utexas.edu/</id>
 	<author>
 		<name>Systems and Storage Research</name>
 	</author>
@@ -14,10 +14,10 @@
 	<entry>
         
             <title>How To Give A Systems Talk</title>
-            <link href="http://localhost:4000/blog/2017/08/11/How-To-Give-A-Systems-Talk.html"/>
+            <link href="http://cs.utexas.edu/blog/2017/08/11/How-To-Give-A-Systems-Talk.html"/>
         
 		<updated>2017-08-11T00:00:00-05:00</updated>
-        <id>http://localhost:4000/blog/2017/08/11/How-To-Give-A-Systems-Talk.html</id>
+        <id>http://cs.utexas.edu/blog/2017/08/11/How-To-Give-A-Systems-Talk.html</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.cs.utexas.edu/~vijay/&quot;&gt;Vijay Chidambaram&lt;/a&gt;: Jotting down
 the advice I give to my students about presenting at a systems
 conference. Most of this is advice I got from
