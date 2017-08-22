@@ -89,26 +89,23 @@
 						{{entry.fields['preprintkey'] | escape }}
 					</a>]
 			</div>
-			{%- endif %}
-
 			<br>
+            {%- endif %}
 
 			{%- if entry.fields['awards'] %}
 			<div id="bib_{{entry.fields['key']}}" class="bib text-danger">
 				<b>{{entry.fields['awards'] | escape }}</b>
 			</div>
+    		<br>    
 			{%- endif %}
-
-			<br>
 
 			{%- if entry.fields['presskey'] %}
 			<div id="bib_{{entry.fields['key']}}" class="bib">
-					<b>Press:</b>[<a href={{entry.fields['pressval'] | escape }}> 
+					<b>Press:</b> [<a href={{entry.fields['pressval'] | escape }}> 
 						{{entry.fields['presskey'] | escape }}
 					</a>]
 			</div>
 			{%- endif %}
-
 
 			{%- if entry.fields['abstract'] %}
 			<div id="abstract_{{entry.fields['key']}}" class="abstract">
