@@ -175,6 +175,7 @@ ul.news .date {
     color: #999;
     font-weight: bold;
     display: block;
+    width: 50px;
 }
 ul.news > li {
     margin-top: 1em;

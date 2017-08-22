@@ -6,10 +6,18 @@
 		<td>
 			<span class="date">
 				{% if entry.fields['year'] != prev_year %}
+				<big><strong>{{ entry.fields['conference'] }}</strong></big><br />
 				<big><strong>{{ entry.fields['year'] }}</strong></big><br />
 				{% endif %}
 				{%- set prev_year = entry.fields['year'] %}
-				{{ entry.fields['month']|monthname }}
+				{{ entry.fields['month']|monthname }} <br>
+				{%- if entry.fields['awards'] %}
+					<p class="text-danger">
+						<b>
+							{{entry.fields['awards'] | escape }}
+						</b>
+					</p>
+				{% endif %}
 			</span>
 		</td>
 		<td class="publication span-texty">
@@ -89,15 +97,9 @@
 						{{entry.fields['preprintkey'] | escape }}
 					</a>]
 			</div>
-			<br>
             {%- endif %}
 
-			{%- if entry.fields['awards'] %}
-			<div id="bib_{{entry.fields['key']}}" class="bib text-danger">
-				<b>{{entry.fields['awards'] | escape }}</b>
-			</div>
-    		<br>    
-			{%- endif %}
+            <br>
 
 			{%- if entry.fields['presskey'] %}
 			<div id="bib_{{entry.fields['key']}}" class="bib">
