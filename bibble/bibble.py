@@ -38,7 +38,7 @@ def _author_list(authors):
         # with a link if present in the json file
         str__ = ""
         if val in str_.keys():
-            str__ += "<a href=\"" + str_[val] + "\">"
+            str__ += "<a class=\"on-mouseover\"  href=\"" + str_[val] + "\">"
         str__ += val
         if val in str_.keys():
             str__ += "</a>"

@@ -37,7 +37,7 @@
 			<br />
 			<span class="links">
 			{%- for type, url in (entry|extra_urls).iteritems() %}
-				[<a href="{{ url|escape }}">{{ type|escape }}</a>]
+				[<a class="on-mouseover" href="{{ url|escape }}">{{ type|escape }}</a>]
 			{%- endfor %}
 <!-- 				{%- if entry.fields['abstract'] %}
 				[<a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="$('#abstract_{{entry.fields['key']}}').slideToggle('fast');return false;">abstract</a>]
@@ -45,7 +45,7 @@
 			</span>
 			{%- if entry.fields['talk'] %}
 			<div id="talk_{{entry.fields['key']}}" class="talk">
-					[<a href={{entry.fields['talk'] | escape }}> 
+					[<a class="on-mouseover" href={{entry.fields['talk'] | escape }}> 
 						Talk
 					</a>]
 			</div>
@@ -53,7 +53,7 @@
 			
 			{%- if entry.fields['code'] %}
 			<div id="code_{{entry.fields['key']}}" class="code">
-					[<a href={{entry.fields['code'] | escape }}> 
+					[<a class="on-mouseover" href={{entry.fields['code'] | escape }}> 
 						Code
 					</a>]
 			</div>
@@ -61,7 +61,7 @@
 
 			{%- if entry.fields['slides'] %}
 			<div id="slides_{{entry.fields['key']}}" class="slides">
-					[<a href={{entry.fields['slides'] | escape }}> 
+					[<a class="on-mouseover" href={{entry.fields['slides'] | escape }}> 
 						Slides
 					</a>]
 			</div>
@@ -69,7 +69,7 @@
 
 			{%- if entry.fields['bib'] %}
 			<div id="bib_{{entry.fields['key']}}" class="bib">
-					[<a href={{entry.fields['bib'] | escape }}> 
+					[<a class="on-mouseover" href={{entry.fields['bib'] | escape }}> 
 						Bib
 					</a>]
 			</div>
@@ -77,7 +77,7 @@
 
 			{%- if entry.fields['poster'] %}
 			<div id="bib_{{entry.fields['key']}}" class="bib">
-					[<a href={{entry.fields['poster'] | escape }}> 
+					[<a class="on-mouseover" href={{entry.fields['poster'] | escape }}> 
 						Poster
 					</a>]
 			</div>
@@ -85,7 +85,7 @@
 
 			{%- if entry.fields['preprintkey'] %}
 			<div id="bib_{{entry.fields['key']}}" class="bib">
-					[<a href={{entry.fields['preprintval'] | escape }}> 
+					[<a class="on-mouseover" href={{entry.fields['preprintval'] | escape }}> 
 						{{entry.fields['preprintkey'] | escape }}
 					</a>]
 			</div>
@@ -103,7 +103,7 @@
 
 			{%- if entry.fields['presskey'] %}
 			<div id="bib_{{entry.fields['key']}}" class="bib">
-					<b>Press:</b>[<a href={{entry.fields['pressval'] | escape }}> 
+					<b>Press:</b>[<a class="on-mouseover" href={{entry.fields['pressval'] | escape }}> 
 						{{entry.fields['presskey'] | escape }}
 					</a>]
 			</div>

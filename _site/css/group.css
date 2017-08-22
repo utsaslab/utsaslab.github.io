@@ -36,6 +36,14 @@ a:focus {
   background-color: #BF5700;
 }
 
+.on-mouseover {
+  color: #000000;
+}
+
+.on-mouseover:hover {
+  background-color: #ABBBDC;
+}
+
 a {
   color: #BF5700;
 }
