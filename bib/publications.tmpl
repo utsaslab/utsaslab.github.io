@@ -11,6 +11,20 @@
 				{% endif %}
 				{%- set prev_year = entry.fields['year'] %}
 				{{ entry.fields['month']|monthname }} <br>
+
+				{%- set url = entry|main_url %}
+				{%- if url %}
+				<a href={{ url|escape }}>
+					<img src="img/pdficon_small.png" width="16" height="16" alt="PDF" />
+				</a>
+				{% endif %}
+
+				{%- if entry.fields['bib'] %}
+				<a href={{entry.fields['bib'] | escape }}>
+					<img src="img/bib.png" width="16" height="16" alt="PDF" />
+				</a>
+				{% endif %} <br>
+
 				{%- if entry.fields['awards'] %}
 					<p class="text-danger">
 						<b>
@@ -24,8 +38,6 @@
 			<span class="pubtitle">
 				{%- set url = entry|main_url %}
 				{%- if url %}
-				<img src="img/pdficon_small.png" width="16"
-					height="16" alt="PDF" />
 				<a href="{{ url|escape }}">{{ entry|title }}</a>.
 				{%- else %}
 				{{ entry|title }}.
