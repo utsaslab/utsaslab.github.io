@@ -14,13 +14,13 @@
 
 				{%- set url = entry|main_url %}
 				{%- if url %}
-				<a href={{ url|escape }}>
+				<a href={{ url|escape }} class="img-link">
 					<img src="img/pdficon_small.png" width="16" height="16" alt="PDF" />
 				</a>
 				{% endif %}
 
 				{%- if entry.fields['bib'] %}
-				<a href={{entry.fields['bib'] | escape }}>
+				<a href={{entry.fields['bib'] | escape }} class="img-link">
 					<img src="img/bib.png" width="16" height="16" alt="PDF" />
 				</a>
 				{% endif %} <br>
