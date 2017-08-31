@@ -9,6 +9,20 @@ vijay:
     bio: Head of the System and Storage Research Lab.
     img: /people/vijay.jpg
 
+dhathri:
+    display_name: Dhathri Purohith
+    webpage: https://www.cs.utexas.edu/~dhathri
+    github:
+    role: grad
+    img: /people/dhathri.jpg
+    
+jayashree:
+    display_name: Jayashree Mohan
+    webpage: https://www.cs.utexas.edu/~jaya/
+    github:
+    role: grad
+    img: /people/jaya.jpg
+    
 pandian:
     display_name: Pandian Raju
     webpage: https://www.linkedin.com/in/pandianraju
@@ -16,33 +30,19 @@ pandian:
     role: grad
     img: /people/pandian.jpg
 
-jayashree:
-    display_name: Jayashree Mohan
-    webpage: https://www.cs.utexas.edu/~jaya/
-    github:
-    role: grad
-    img: /people/jaya.jpg
-
-dhathri:
-    display_name: Dhathri Purohith
-    webpage: https://www.cs.utexas.edu/~dhathri
-    github:
-    role: grad
-    img: /people/dhathri.jpg
-
-soujanya:
-    display_name: Soujanya Ponnapalli
-    webpage: https://www.linkedin.com/in/soujanya-ponnapalli-553275107/
-    github: 
-    role: grad
-    img: /people/soujanya.jpg
-
 rohan:
     display_name:  Rohan Kadekodi
     webpage: https://www.linkedin.com/in/rohan-kadekodi-775b4a124/
     github: 
     role: grad
     img: /people/rohan.jpg
+    
+soujanya:
+    display_name: Soujanya Ponnapalli
+    webpage: https://www.linkedin.com/in/soujanya-ponnapalli-553275107/
+    github: 
+    role: grad
+    img: /people/soujanya.jpg
 
 ashlie:
     display_name: Ashlie Martinez
@@ -51,26 +51,6 @@ ashlie:
     role: undergrad
     img: /people/ashlie.jpg
 
-chris:
-    display_name: Chris Sun
-    webpage: 
-    github: 
-    role: undergrad
-
-tom:
-    display_name: Tom Gong
-    webpage: https://lockijazz.github.io/
-    github: lockijazz
-    role: undergrad
-    img: /people/tom.jpg
-
-subrat:
-    display_name: Subrat Mainali
-    webpage: http://www.cs.utexas.edu/~sm63966/
-    github: gk159yo
-    role: undergrad
-    img: /people/subrat.jpg
-
 carolyn:
     display_name: Carolyn Tran
     webpage: http://carolynqt.com
@@ -78,9 +58,31 @@ carolyn:
     role: undergrad
     img: /people/carolyn.jpg
 
+chris:
+    display_name: Chris Sun
+    webpage: https://github.com/chrisyhsun 
+    github: chrisyhsun
+    role: undergrad
+    img: /people/chris.png
+
 eric:
     display_name: Eric Lee
     webpage: http://ericlee123.github.io/
     github: 
     role: undergrad
     img: /people/ericlee.jpg
+    
+subrat:
+    display_name: Subrat Mainali
+    webpage: http://www.cs.utexas.edu/~sm63966/
+    github: gk159yo
+    role: undergrad
+    img: /people/subrat.jpg
+    
+tom:
+    display_name: Tom Gong
+    webpage: https://lockijazz.github.io/
+    github: lockijazz
+    role: undergrad
+    img: /people/tom.jpg
+
