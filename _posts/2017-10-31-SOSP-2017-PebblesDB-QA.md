@@ -1,3 +1,9 @@
+---
+layout: post
+shortnews: false
+onlyarchive: false
+---
+    
 Program site: https://www.sigops.org/sosp/sosp17/program.html
 Questions site: https://app.sli.do/event/e3ouyhid/ask
 
