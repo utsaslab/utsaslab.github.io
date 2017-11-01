@@ -8,7 +8,7 @@ onlyarchive: false
 **Questions site:** [PebblesDB sli.do](https://app.sli.do/event/e3ouyhid/ask)  
 
 **Q:** When the skewness is shifted, there is any policy of deleting/rearranging guards? and overhead about this? Thank you.  
-**A:** Currently, PebblesDB doesn't have a policy to delete or rearrange guards. FLSM is designed in such a way to balance all the data between the guards well, but we could definitely explore more about rebalancing guards in FLSM.  
+**A:** Currently, PebblesDB doesn't have a policy to delete or rearrange guards. FLSM is designed in such a way to balance all the data between the guards well, but we could definitely explore more about rebalancing guards in FLSM. One additional thing to note is that the rearranging of the data among the guards can all happen in background and can be highly parallelized thereby not causing much overhead to the critical path of key-value store operations.  
 
 **Q:** How often do you have to change guards and what's the overhead of doing so?  
 **A:** In PebblesDB, once the guards are chosen, they are not changed. But when a new guard is inserted in between two existing guards, the files in the guards need to be split according to the new guard and this happens asynchronously during the background compaction. This overhead of introducing a new guard is amortized in the cost of background compaction which anyways happens. 
@@ -24,3 +24,6 @@ onlyarchive: false
 
 **Q:** If all the keys have low number(skewness) and guards cannot divide into multiple sub-sections, isn't it same with LSM (Which may be rare)?  
 **A:** In such a skewed case, more data might be present within a few guards (closer to LSM) but FLSM still reduces write amplification. Also, depending on the data set, a configurable parameter can be used to tune the number of guards desired, with this config, we can increase the number of guards for such a skewed data.  
+
+**Q:** can any one make a comparison with TudoDB ?  
+**A:** I'm assuming the question is regarding TokuDB. TokuDB shares the same goal as PebblesDB - to reduce write amplification. TokuDB is built using fractal index tree, which is a modification to standard B+ trees. But PebblesDB focusses on the LSM group of key-value stores and uses a new data structure FLSM, which is a modification of LSM. We haven't compared PebblesDB directly with TokuDB but TokuDB is focusses more towards read workloads while FLSM is optimized for write workloads.
