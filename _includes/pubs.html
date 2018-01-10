@@ -1,22 +1,74 @@
 <table class="table">
 <tbody>
 	<tr>
-		<td>
+		<td width=150>
 			<span class="date">
 				
-				<big><strong><a class="on-mouseover" href="https://www.sigops.org/sosp/sosp17/">SOSP</a></strong></big><br />
+				<big><strong><a class="on-mouseover" href="https://www.usenix.org/conference/fast18">FAST </a></strong></big><br />
+				<big><strong>2018</strong></big><br />
+				
+				February <br> <br>
+			</span>
+		</td>
+		<td class="publication span-texty">
+			<span class="pubtitle">
+				Protocol-Aware Recovery for Consensus-Based Storage.
+			</span><br />
+			<span class="authors">
+				
+					<a class="on-mouseover"  href="http://pages.cs.wisc.edu/~ra/">Ramnatthan Alagappan</a>
+				
+					|
+				
+					Aishwarya Ganesan
+				
+					|
+				
+					<a class="on-mouseover"  href="http://www.cs.utexas.edu/~vijay/">Vijay Chidambaram</a>
+				
+					|
+				
+					Aws Albarghouthi
+				
+					|
+				
+					<a class="on-mouseover"  href="http://pages.cs.wisc.edu/~dusseau/">Andrea C. Arpaci-Dusseau</a>
+				
+					|
+				
+					<a class="on-mouseover"  href="http://pages.cs.wisc.edu/~remzi">Remzi H. Arpaci-Dusseau</a>
+				
+			</span><br />
+			<span class="venuetype"></span><span class="venue">To Appear in the Proceedsings of the 16th USENIX Conference on File and Storage Technologies</span>.
+			<br />
+			<span class="links">
+<!-- -->
+			</span>
+
+            <br>
+		</td>
+	</tr>
+	<tr>
+		<td width=150>
+			<span class="date">
+				
+				<big><strong><a class="on-mouseover" href="https://www.sigops.org/sosp/sosp17/">SOSP </a></strong></big><br />
 				<big><strong>2017</strong></big><br />
 				
-				September <br>
-				<a href=https://www.sigops.org/sosp/sosp17/index.html class="img-link">
+				October <br>
+				<a href=http://www.cs.utexas.edu/~vijay/papers/sosp17-pebblesdb.pdf class="img-link">
 					<img src="img/pdficon_small.png" width="16" height="16" alt="PDF" />
+				</a>
+				
+				<a href=http://www.cs.utexas.edu/~vijay/bibtex/sosp17-pebblesdb.bib class="img-link">
+					<img src="img/bib.png" width="16" height="16" alt="PDF" />
 				</a>
 				 <br>
 			</span>
 		</td>
 		<td class="publication span-texty">
 			<span class="pubtitle">
-				<a href="https://www.sigops.org/sosp/sosp17/index.html">PebblesDB: Simultaneously Increasing Write Throughput and Decreasing Write Amplification in Key-Value Stores</a>.
+				<a href="http://www.cs.utexas.edu/~vijay/papers/sosp17-pebblesdb.pdf">PebblesDB: Building Key-Value Stores using Fragmented Log-Structured Merge Trees</a>.
 			</span><br />
 			<span class="authors">
 				
@@ -35,23 +87,38 @@
 					<a class="on-mouseover"  href="https://research.vmware.com/researchers/ittai-abraham">Ittai Abraham</a>
 				
 			</span><br />
-			<span class="venuetype"></span><span class="venue">The 26th ACM Symposium on Operating Systems Principles</span>.
+			<span class="venuetype"></span><span class="venue">Proceedings of the 26th ACM Symposium on Operating Systems Principles (SOSP '17)</span>.
 			<br />
 			<span class="links">
 <!--
-				[<a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="$('#abstract_PebblesDB-17').slideToggle('fast');return false;">abstract</a>] -->
+				[<a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="$('#abstract_RajuEtAl17-PebblesDB').slideToggle('fast');return false;">abstract</a>] -->
 			</span>
+			<div id="code_RajuEtAl17-PebblesDB" class="code">
+					[<a class="on-mouseover" href=https://github.com/utsaslab/pebblesdb> 
+						Code
+					</a>]
+			</div>
+			<div id="slides_RajuEtAl17-PebblesDB" class="slides">
+					[<a class="on-mouseover" href=http://www.cs.utexas.edu/~vijay/papers/pebblesdb-sosp17-slides.pdf> 
+						Slides
+					</a>]
+			</div>
+			<div id="bib_RajuEtAl17-PebblesDB" class="bib">
+					[<a class="on-mouseover" href=http://www.cs.utexas.edu/~vijay/bibtex/sosp17-pebblesdb.bib> 
+						Bib
+					</a>]
+			</div>
 
             <br>
-			<div id="abstract_PebblesDB-17" class="abstract">
+			<div id="abstract_RajuEtAl17-PebblesDB" class="abstract">
 				<span class="abstract-text">
-					Key-value stores such as LevelDB and RocksDB offer excellent write throughput, but suffer high write amplification: 1 GB written to RocksDB results in 28 GB written to storage. The write amplification problem is fundamental to the Log-Structured Merge Trees data structure that underlies these key-value stores. To remedy this, we present a novel data structure that is inspired by Skip Lists, termed Fragmented Log-Structured Merge Trees (FLSM). FLSM introduces the notion of guards to organize logs, and avoids rewriting data in the same level. We build PebblesDB, a high performance key-value store, on top of the FLSM data structure. We evaluate PebblesDB with different benchmarks and show that compared to LevelDB and RocksDB, it decreases write am- plification by 3-5X while increasing write throughput by 2.7X and provides equal or better throughput for other operations such as reads and range queries. We modify two widely-used NoSQL stores, MongoDB and HyperDex, to use PebblesDB as their underlying storage engine, and show that the application throughput is increased by 18-105% (compared to their default storage engines) while write IO is decreased by 35-55%.
+					Key-value stores such as LevelDB and RocksDB offer excellent write throughput, but suffer high write amplification: 1 GB written to RocksDB results in 28 GB written to storage. The write amplification problem is fundamental to the Log-Structured Merge Trees data structure that underlies these key-value stores. To remedy this, we present a novel data structure that is inspired by Skip Lists, termed Fragmented Log-Structured Merge Trees (FLSM). FLSM introduces the notion of guards to organize logs, and avoids rewriting data in the same level. We build PebblesDB, a high performance key-value store, on top of the FLSM data structure. We evaluate PebblesDB with different benchmarks and show that compared to LevelDB and RocksDB, it decreases write am- plification by 3-5X while increasing write throughput by 2.7X and provides equal or better throughput for other operations such as reads and range queries. We modify two widely-used NoSQL stores, MongoDB and HyperDex, to use PebblesDB as their underlying storage engine, and show that the application throughput is increased by 18-105\% (compared to their default storage engines) while write IO is decreased by 35-55\%.
 				</span>
 			</div>
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td width=150>
 			<span class="date">
 				
 				<big><strong><a class="on-mouseover" href="https://www.sigops.org/sosp/sosp17/">APSys</a></strong></big><br />
@@ -90,6 +157,11 @@
 			<span class="links">
 <!-- -->
 			</span>
+			<div id="slides_purohith17sqlite" class="slides">
+					[<a class="on-mouseover" href=http://www.cs.utexas.edu/~vijay/papers/apsys17-sqlite-slides.pdf> 
+						Slides
+					</a>]
+			</div>
 			<div id="bib_purohith17sqlite" class="bib">
 					[<a class="on-mouseover" href=http://www.cs.utexas.edu/~vijay/bibtex/apsys17-sqlite.bib> 
 						Bib
@@ -100,7 +172,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td width=150>
 			<span class="date">
 				
 				<big><strong><a class="on-mouseover" href="https://www.sigops.org/sosp/sosp17/">APSys</a></strong></big><br />
@@ -111,6 +183,12 @@
 					<img src="img/pdficon_small.png" width="16" height="16" alt="PDF" />
 				</a>
 				 <br>
+					<p class="text-danger">
+						<b>
+							Best Poster Award
+						</b>
+					</p>
+				
 			</span>
 		</td>
 		<td class="publication span-texty">
@@ -150,7 +228,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td width=150>
 			<span class="date">
 				
 				<big><strong><a class="on-mouseover" href="https://www.usenix.org/conference/hotstorage17">HotStorage</a></strong></big><br />
@@ -208,7 +286,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td width=150>
 			<span class="date">
 				
 				<big><strong><a class="on-mouseover" href="https://www.usenix.org/conference/hotstorage17">HotStorage</a></strong></big><br />
@@ -270,7 +348,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td width=150>
 			<span class="date">
 				
 				<big><strong><a class="on-mouseover" href="https://www.usenix.org/conference/hotstorage17">HotStorage</a></strong></big><br />
@@ -325,7 +403,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td width=150>
 			<span class="date">
 				
 				<big><strong><a class="on-mouseover" href="https://www.sigops.org/hotos/hotos17/">HotOS</a></strong></big><br />
@@ -378,7 +456,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td width=150>
 			<span class="date">
 				
 				<big><strong><a class="on-mouseover" href="https://www.usenix.org/conference/fast17">FAST</a></strong></big><br />
@@ -448,14 +526,14 @@
 
             <br>
 			<div id="bib_PillaiEtAl17-CCFS" class="bib">
-					<b>Press:</b>[<a class="on-mouseover" href=https://blog.acolyer.org/2017/03/15/application-crash-consistency-and-performance-with-ccfs/> 
+					<b>Press:</b> [<a class="on-mouseover" href=https://blog.acolyer.org/2017/03/15/application-crash-consistency-and-performance-with-ccfs/> 
 						Morning Paper
 					</a>]
 			</div>
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td width=150>
 			<span class="date">
 				
 				<big><strong><a class="on-mouseover" href="https://www.usenix.org/conference/inflow16">INFLOW</a></strong></big><br />
