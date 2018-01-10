@@ -3,7 +3,7 @@
 	{%- set prev_year = 1900 %}
 	{%- for entry in entries %}
 	<tr>
-		<td>
+		<td width=150>
 			<span class="date">
 				{% if entry.fields['year'] != prev_year %}
 				<big><strong>{{ entry.fields['conference'] }}</strong></big><br />
@@ -115,7 +115,7 @@
 
 			{%- if entry.fields['presskey'] %}
 			<div id="bib_{{entry.fields['key']}}" class="bib">
-					<b>Press:</b>[<a class="on-mouseover" href={{entry.fields['pressval'] | escape }}> 
+					<b>Press:</b> [<a class="on-mouseover" href={{entry.fields['pressval'] | escape }}> 
 						{{entry.fields['presskey'] | escape }}
 					</a>]
 			</div>

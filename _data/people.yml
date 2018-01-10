@@ -13,7 +13,7 @@ dhathri:
     display_name: Dhathri Purohith
     webpage: https://www.cs.utexas.edu/~dhathri
     github:
-    role: grad
+    role: alum
     img: /people/dhathri.jpg
     
 jayashree:
@@ -83,6 +83,6 @@ tom:
     display_name: Tom Gong
     webpage: https://lockijazz.github.io/
     github: lockijazz
-    role: undergrad
+    role: alum
     img: /people/tom.jpg
 

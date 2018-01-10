@@ -15,10 +15,10 @@ check out the [code](https://utsaslab.github.io/code.html) we have
 released. We aim to include both undergraduate and Masters students in
 active research. Currently, [we
 have](https://utsaslab.github.io/people.html) three PhD students, two
-Masters student, and six undergraduate students working with the
+Masters students, and six undergraduate students working with the
 lab.
 
-We thank [Facebook](https://research.fb.com/programs/) and
+We thank [NSF](https://www.nsf.gov), [Facebook](https://research.fb.com/programs/), and
 [VMware](https://labs.vmware.com/academic/academic-software) for
 supporting our lab.
 

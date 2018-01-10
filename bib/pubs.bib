@@ -1,3 +1,17 @@
+@inproceedings {AlagappanEtAl18-PAR,
+  author =       {Ramnatthan Alagappan and Aishwarya Ganesan and Vijay
+                  Chidambaram and Aws Albarghouthi and Andrea
+                  C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau},
+  title =        {Protocol-Aware Recovery for Consensus-Based Storage},
+  booktitle =    {To Appear in the Proceedsings of the 16th USENIX
+                  Conference on File and Storage Technologies },
+  conference =   {<a class="on-mouseover"
+                  href="https://www.usenix.org/conference/fast18">FAST
+                  </a>},
+  year =         2018,
+  month =        2,
+}
+    
 @inproceedings{chauhan16nvmove,
   title= {NVMOVE: Helping Programmers Move to Byte-Based Persistence},
   author={Chauhan, Himanshu and Calciu, Irina and Chidambaram, Vijay
@@ -13,17 +27,51 @@
   slides = {http://www.cs.utexas.edu/~vijay/papers/inflow16-nvmove-slides.pdf},
   conference = {<a class="on-mouseover" href="https://www.usenix.org/conference/inflow16">INFLOW</a>}
 }
-    
-@inproceedings{PebblesDB-17,
-  title= {PebblesDB: Simultaneously Increasing Write Throughput and Decreasing Write Amplification in Key-Value Stores},
-  author={Raju, Pandian and Kadekodi, Rohan and Chidambaram, Vijay and Abraham, Ittai},
-  booktitle= {The 26th ACM Symposium on Operating Systems Principles},
-  conference = { <a class="on-mouseover" href="https://www.sigops.org/sosp/sosp17/">SOSP</a>},
-  organization={USENIX Association},
-  url={https://www.sigops.org/sosp/sosp17/index.html},
-  year=2017,
-  month = 9,
-  abstract = {Key-value stores such as LevelDB and RocksDB offer excellent write throughput, but suffer high write amplification: 1 GB written to RocksDB results in 28 GB written to storage. The write amplification problem is fundamental to the Log-Structured Merge Trees data structure that underlies these key-value stores. To remedy this, we present a novel data structure that is inspired by Skip Lists, termed Fragmented Log-Structured Merge Trees (FLSM). FLSM introduces the notion of guards to organize logs, and avoids rewriting data in the same level. We build PebblesDB, a high performance key-value store, on top of the FLSM data structure. We evaluate PebblesDB with different benchmarks and show that compared to LevelDB and RocksDB, it decreases write am- plification by 3-5X while increasing write throughput by 2.7X and provides equal or better throughput for other operations such as reads and range queries. We modify two widely-used NoSQL stores, MongoDB and HyperDex, to use PebblesDB as their underlying storage engine, and show that the application throughput is increased by 18-105% (compared to their default storage engines) while write IO is decreased by 35-55%.},
+
+@InProceedings{RajuEtAl17-PebblesDB,
+  slides =
+                  {http://www.cs.utexas.edu/~vijay/papers/pebblesdb-sosp17-slides.pdf},
+  code =         {https://github.com/utsaslab/pebblesdb},
+  title =        "{PebblesDB: Building Key-Value Stores using
+                  Fragmented Log-Structured Merge Trees}",
+  author =       "Pandian Raju and Rohan Kadekodi and Vijay
+                  Chidambaram and Ittai Abraham",
+  booktitle =    "Proceedings of the 26th ACM Symposium on Operating
+                  Systems Principles (SOSP '17)",
+  conference =   { <a class="on-mouseover"
+                  href="https://www.sigops.org/sosp/sosp17/">SOSP
+                  </a>},
+  month =        10,
+  year =         "2017",
+  address =      "Shanghai, China",
+  abstract =     {Key-value stores such as LevelDB and RocksDB offer
+                  excellent write throughput, but suffer high write
+                  amplification: 1 GB written to RocksDB results in 28
+                  GB written to storage. The write amplification
+                  problem is fundamental to the Log-Structured Merge
+                  Trees data structure that underlies these key-value
+                  stores. To remedy this, we present a novel data
+                  structure that is inspired by Skip Lists, termed
+                  Fragmented Log-Structured Merge Trees (FLSM). FLSM
+                  introduces the notion of guards to organize logs,
+                  and avoids rewriting data in the same level. We
+                  build PebblesDB, a high performance key-value store,
+                  on top of the FLSM data structure. We evaluate
+                  PebblesDB with different benchmarks and show that
+                  compared to LevelDB and RocksDB, it decreases write
+                  am- plification by 3-5X while increasing write
+                  throughput by 2.7X and provides equal or better
+                  throughput for other operations such as reads and
+                  range queries. We modify two widely-used NoSQL
+                  stores, MongoDB and HyperDex, to use PebblesDB as
+                  their underlying storage engine, and show that the
+                  application throughput is increased by 18-105\%
+                  (compared to their default storage engines) while
+                  write IO is decreased by 35-55\%.},
+  url =
+                  {http://www.cs.utexas.edu/~vijay/papers/sosp17-pebblesdb.pdf},
+  bib =
+                  {http://www.cs.utexas.edu/~vijay/bibtex/sosp17-pebblesdb.bib}
 }
     
 @inproceedings {PillaiEtAl17-CCFS,
@@ -98,30 +146,41 @@
       bib = {http://www.cs.utexas.edu/~vijay/bibtex/hotstorage17-crashmonkey.bib},
 }
 @inproceedings{purohith17sqlite,
-  title =        {The Dangers and Complexities of Benchmarking
-                  SQLite},
+  slides =
+                  {http://www.cs.utexas.edu/~vijay/papers/apsys17-sqlite-slides.pdf},
+  title =        {The Dangers and Complexities of Benchmarking SQLite},
   author =       {Purohith, Dhathri and Mohan, Jayashree and
                   Chidambaram, Vijay},
   booktitle =    {The 8th ACM SIGOPS Asia-Pacific Workshop on Systems},
   organization = {ACM},
-  conference = {<a class="on-mouseover" href="https://www.sigops.org/sosp/sosp17/">APSys</a>},
-  month = 9,
-  url= {http://www.cs.utexas.edu/~vijay/papers/apsys17-sqlite.pdf},
+  conference =   {<a class="on-mouseover"
+                  href="https://www.sigops.org/sosp/sosp17/">APSys</a>},
+  month =        9,
+  url =
+                  {http://www.cs.utexas.edu/~vijay/papers/apsys17-sqlite.pdf},
   year =         2017,
   address =      {Mumbai, India},
-  bib = {http://www.cs.utexas.edu/~vijay/bibtex/apsys17-sqlite.bib},
+  bib =
+                  {http://www.cs.utexas.edu/~vijay/bibtex/apsys17-sqlite.bib},
 }
+    
 @inproceedings{jayashreelinuxFS,
-  title =        {Analyzing IO Amplification in Linux File Systems (Poster) },
-  author =       {Jayashree Mohan and Rohan Kadekodi and Vijay Chidambaram},
+  title =        {Analyzing IO Amplification in Linux File Systems
+                  (Poster) },
+  author =       {Jayashree Mohan and Rohan Kadekodi and Vijay
+                  Chidambaram},
   booktitle =    {The 8th ACM SIGOPS Asia-Pacific Workshop on Systems},
   organization = {ACM},
-  conference = {<a class="on-mouseover" href="https://www.sigops.org/sosp/sosp17/">APSys</a>},
-  month = 9,
-  url= {http://www.cs.utexas.edu/~vijay/papers/apsys17-ioamp.pdf},
+  awards =       {Best Poster Award},
+  conference =   {<a class="on-mouseover"
+                  href="https://www.sigops.org/sosp/sosp17/">APSys</a>},
+  month =        9,
+  url =
+                  {http://www.cs.utexas.edu/~vijay/papers/apsys17-ioamp.pdf},
   year =         2017,
   address =      {Mumbai, India},
-  poster = {http://www.cs.utexas.edu/~vijay/papers/apsys17-ioamp.pdf},
-  preprintkey = {ArXiV Preprint},
-  preprintval = {https://arxiv.org/pdf/1707.08514.pdf},
+  poster =
+                  {http://www.cs.utexas.edu/~vijay/papers/apsys17-ioamp.pdf},
+  preprintkey =  {ArXiV Preprint},
+  preprintval =  {https://arxiv.org/pdf/1707.08514.pdf},
 }
