@@ -14,8 +14,8 @@ We strive to make our systems publicly available whenever possible;
 check out the [code](https://utsaslab.github.io/code.html) we have
 released. We aim to include both undergraduate and Masters students in
 active research. Currently, [we
-have](https://utsaslab.github.io/people.html) three PhD students, two
-Masters students, and six undergraduate students working with the
+have](https://utsaslab.github.io/people.html) two PhD students, two
+Masters students, and four undergraduate students working with the
 lab.
 
 We thank [NSF](https://www.nsf.gov), [Facebook](https://research.fb.com/programs/), and
