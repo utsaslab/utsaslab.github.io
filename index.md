@@ -10,17 +10,24 @@ Welcome to the **UT Systems and Storage Lab**. The lab is directed by
   storage techologies. To train the next generation of computer
   scientists and engineers.
 
-We strive to make our systems publicly available whenever possible;
-check out the [code](https://utsaslab.github.io/code.html) we have
-released. We aim to include both undergraduate and Masters students in
-active research. Currently, [we
-have](https://utsaslab.github.io/people.html) two PhD students, two
-Masters students, and four undergraduate students working with the
-lab.
+We aim to build the next generation of storage systems. This means
+building storage systems that have higher performance and stronger
+reliability. We build both storage systems and the tools need to
+develop such systems rigorously, such as testing frameworks. Our work
+involves innovation both at the data-structure level and at the
+systems level. We open-source all the software we build, and aim to
+have impact both inside academia and in industry.
+    
+Check out the [code](https://github.com/utsaslab) we have released. We
+aim to include both undergraduate and Masters students in active
+research. Currently, [we have](https://utsaslab.github.io/people.html)
+four PhD students, one Masters student, and two undergraduate students
+working with the lab.
 
-We thank [NSF](https://www.nsf.gov), [Facebook](https://research.fb.com/programs/), and
-[VMware](https://labs.vmware.com/academic/academic-software) for
-supporting our lab.
+We thank [NSF](https://www.nsf.gov),
+ [VMware](https://labs.vmware.com/academic/academic-software),
+ [Facebook](https://research.fb.com/programs/), and
+ [Google](http://www.google.com) for supporting our lab.
 
 <div id='top-news-home'>
 	<h5 class="text-info">Recent News:</h5>

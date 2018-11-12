@@ -27,7 +27,7 @@ pandian:
     display_name: Pandian Raju
     webpage: https://www.linkedin.com/in/pandianraju
     github: pandian4github
-    role: grad
+    role: alum
     img: /people/pandian.jpg
 
 rohan:
@@ -39,37 +39,65 @@ rohan:
     
 soujanya:
     display_name: Soujanya Ponnapalli
-    webpage: https://www.linkedin.com/in/soujanya-ponnapalli-553275107/
+    webpage: https://www.cs.utexas.edu/~soujanya/
     github: 
     role: grad
     img: /people/soujanya.jpg
 
+aashaka:
+    display_name: Aashaka Shah
+    webpage: https://aashaka.github.io/
+    github: 
+    role: grad
+    img: https://aashaka.github.io/public/img/Aashaka_circle3.jpg
+
+sekwon:
+    display_name: Sekwon Lee
+    webpage: https://sekwonlee.github.io
+    github: 
+    role: grad
+    img: https://sekwonlee.github.io/images/profile.jpeg
+
+evan:
+    display_name: Evan Kaminsky
+    webpage: http://www.cs.utexas.edu/~kaminsky/
+    github: 
+    role: undergrad
+    img: https://media.licdn.com/dms/image/C5603AQFWvGi24Xjhug/profile-displayphoto-shrink_800_800/0?e=1547683200&v=beta&t=-3oslkEratdbNWwAfDz4VcpvXCBMRRP1ayC-9f-Nfi0
+
+vincent:
+    display_name: Vincent Lee
+    webpage: https://www.linkedin.com/in/vincent-lee-9b3333106/ 
+    github: 
+    role: undergrad
+    img: https://media.licdn.com/dms/image/C5603AQEdkcw16ZMf-w/profile-displayphoto-shrink_800_800/0?e=1547683200&v=beta&t=Jsk9LtN4LhLcxa0jf42YOWnD4JYzdlnYNX_NpAVzzAo
+                    
 ashlie:
     display_name: Ashlie Martinez
     webpage: https://github.com/ashmrtn
     github: ashmrtn
-    role: undergrad
+    role: alum
     img: /people/ashlie.jpg
 
 carolyn:
     display_name: Carolyn Tran
     webpage: http://carolynqt.com
     github: scarolyn
-    role: undergrad
+    role: alum
     img: /people/carolyn.jpg
 
 chris:
     display_name: Chris Sun
     webpage: https://github.com/chrisyhsun 
     github: chrisyhsun
-    role: undergrad
+    role: alum
     img: /people/chris.png
 
 eric:
     display_name: Eric Lee
     webpage: http://ericlee123.github.io/
     github: 
-    role: undergrad
+    role: alum
     img: /people/ericlee.jpg
     
 subrat:
