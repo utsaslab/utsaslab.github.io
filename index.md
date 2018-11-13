@@ -40,6 +40,3 @@ We thank [NSF](https://www.nsf.gov),
 	{% include recent_news.html %}
 </div>
 
-This website is maintained by [Vijay
-Chidambaram](http://www.cs.utexas.edu/~vijay/) and [Subrat
-Mainali](http://www.cs.utexas.edu/~sm63966/).

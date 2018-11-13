@@ -1,6 +1,6 @@
 <ul class="news list-unstyled">
     {% assign list = site.news_posts | reverse %}
-    {% for info in list limit:3%}
+    {% for info in list limit:5%}
             {% if info.onlyarchive == false %}
                  <li class="shortnews">
                     <span class="date"> {{info.title}} </span>

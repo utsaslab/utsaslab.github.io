@@ -9,6 +9,13 @@ vijay:
     bio: Head of the System and Storage Research Lab.
     img: /people/vijay.jpg
 
+supreeth:
+    display_name: Supreeth Shastri
+    webpage: https://people.umass.edu/shastri/
+    github: transientCloud
+    role: postdoc
+    img: https://people.umass.edu/shastri/images/portrait-6.jpeg
+    
 dhathri:
     display_name: Dhathri Purohith
     webpage: https://www.cs.utexas.edu/~dhathri
