@@ -29,6 +29,12 @@ We thank [NSF](https://www.nsf.gov),
  [Facebook](https://research.fb.com/programs/), and
  [Google](http://www.google.com) for supporting our lab.
 
+
+<center>    
+<img src="/img/group-lunch.jpg" width="600" align="center"><br>
+<i>The group at lunch (L to R): Sekwon, Soujanya, Jayashree, Vijay, Rohan, Aashaka, Supreeth</i>    
+</center>
+    
 <div id='top-news-home'>
 	<h5 class="text-info">Recent News:</h5>
 	{% include recent_news.html %}
