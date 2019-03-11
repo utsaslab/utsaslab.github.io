@@ -11,10 +11,10 @@ vijay:
 
 supreeth:
     display_name: Supreeth Shastri
-    webpage: https://people.umass.edu/shastri/
+    webpage: https://www.cs.utexas.edu/~shastri/
     github: transientCloud
     role: postdoc
-    img: https://people.umass.edu/shastri/images/portrait-6.jpeg
+    img: /people/shastri.jpeg
     
 dhathri:
     display_name: Dhathri Purohith
