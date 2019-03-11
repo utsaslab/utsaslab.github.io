@@ -67,17 +67,17 @@ sekwon:
 
 evan:
     display_name: Evan Kaminsky
-    webpage: http://www.cs.utexas.edu/~kaminsky/
+    webpage: https://www.linkedin.com/in/evankaminsky/ 
     github: 
     role: undergrad
-    img: https://media.licdn.com/dms/image/C5603AQFWvGi24Xjhug/profile-displayphoto-shrink_800_800/0?e=1547683200&v=beta&t=-3oslkEratdbNWwAfDz4VcpvXCBMRRP1ayC-9f-Nfi0
+    img: /people/kaminsky.jpg
 
 vincent:
     display_name: Vincent Lee
     webpage: https://www.linkedin.com/in/vincent-lee-9b3333106/ 
     github: 
     role: undergrad
-    img: https://media.licdn.com/dms/image/C5603AQEdkcw16ZMf-w/profile-displayphoto-shrink_800_800/0?e=1547683200&v=beta&t=Jsk9LtN4LhLcxa0jf42YOWnD4JYzdlnYNX_NpAVzzAo
+    img: /people/lee.jpg
                     
 ashlie:
     display_name: Ashlie Martinez
