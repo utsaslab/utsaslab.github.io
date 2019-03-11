@@ -14,7 +14,7 @@ supreeth:
     webpage: https://www.cs.utexas.edu/~shastri/
     github: transientCloud
     role: postdoc
-    img: /people/shastri.jpeg
+    img: /people/shastri.jpg
     
 dhathri:
     display_name: Dhathri Purohith
@@ -70,14 +70,14 @@ evan:
     webpage: https://www.linkedin.com/in/evankaminsky/ 
     github: 
     role: undergrad
-    img: /people/kaminsky.jpg
+    img: /people/kaminsky.jpeg
 
 vincent:
     display_name: Vincent Lee
     webpage: https://www.linkedin.com/in/vincent-lee-9b3333106/ 
     github: 
     role: undergrad
-    img: /people/lee.jpg
+    img: /people/lee.jpeg
                     
 ashlie:
     display_name: Ashlie Martinez
