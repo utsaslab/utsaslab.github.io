@@ -14,14 +14,14 @@ title: GDPR from Systems Perspective
 <br>
 #### How Design, Architecture, and Operation of Modern Systems Conflict with GDPR
 *Supreeth Shastri, Melissa Wasserman, and Vijay Chidambaram* <br>
-Currently in submission. Preprint [here]()
+Currently in submission. Preprint on [arXiv]()
 
 **Summary**: *In this paper, we review GDPR from a system design perspective, and identify how its regulations conflict with the design, architecture, and operation of modern systems. We illustrate these conflicts via the seven privacy sins: storing data forever; reusing data indiscriminately; walled gardens and black markets; risk-agnostic data processing; hiding data breaches; making unexplainable decisions; treating security as a secondary goal. Our findings reveal a deep-rooted tussle between GDPR requirements and how modern systems have evolved. We believe that achieving compliance requires comprehensive, grounds up solutions, and anything short would amount to fixing a leaky faucet in a burning building.* 
 <br><br>
 
 #### Analyzing the Impact of GDPR on Storage Systems
 *Vinay Banakar, Aashaka Shah, Supreeth Shastri, Melissa Wasserman, and Vijay Chidambaram* <br>
-Currently in submission. Preprint [here]()
+Currently in submission. Preprint on [arXiv](https://arxiv.org/abs/1903.04880)
 
 **Summary**: *Motivated by the finding that more than 30% of GDPR articles are re- lated to storage, we investigate the impact of GDPR com- pliance on storage systems. We illustrate the challenges of retrofitting existing systems into compliance by modifying Redis to be GDPR-compliant. We show that despite needing to introduce a small set of new features, a strict real-time compliance (e.g., logging every user request synchronously) lowers Redis’ throughput by ∼95%. Our work reveals how GDPR allows compliance to be a spectrum, and what its implications are for system designers. We discuss the technical challenges that need to be solved before strict compliance can be efficiently achieved.*
 
