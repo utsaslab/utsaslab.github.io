@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Analyzing GDPR from Systems Perspective
+title: Analyzing GDPR from a Systems Perspective
 ---
 
 <br>
@@ -20,10 +20,10 @@ Currently in submission. Preprint on [arXiv](https://arxiv.org/abs/1903.09305)
 <br><br>
 
 #### 2. Analyzing the Impact of GDPR on Storage Systems
-*Vinay Banakar, Aashaka Shah, Supreeth Shastri, Melissa Wasserman, and Vijay Chidambaram* <br>
+*Aashaka Shah, Vinay Banakar, Supreeth Shastri, Melissa Wasserman, and Vijay Chidambaram* <br>
 Currently in submission. Preprint on [arXiv](https://arxiv.org/abs/1903.04880)
 
-**Summary**: *Motivated by the finding that more than 30% of GDPR articles are related to storage, we investigate the impact of GDPR com- pliance on storage systems. We illustrate the challenges of retrofitting existing systems into compliance by modifying Redis to be GDPR-compliant. We show that despite needing to introduce a small set of new features, a strict real-time compliance lowers Redis’ throughput by ∼95%. Our work reveals how GDPR allows compliance to be a spectrum, and what its implications are for system designers. We discuss the technical challenges that need to be solved before strict compliance can be efficiently achieved.*
+**Summary**: *Motivated by the finding that more than 30% of GDPR articles are related to storage, we investigate the impact of GDPR compliance on storage systems. We illustrate the challenges of retrofitting existing systems into compliance by modifying Redis to be GDPR-compliant. We show that despite needing to introduce a small set of new features, a strict real-time compliance lowers Redis’ throughput by ∼95%. Our work reveals how GDPR allows compliance to be a spectrum, and what its implications are for system designers. We discuss the technical challenges that need to be solved before strict compliance can be efficiently achieved.*
 <br><br>
 
 ### Get in touch!
